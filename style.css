@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    font-family: "Roboto",Arial,"Helvetica Neue",Helvetica,sans-serif;;
+}
+
+html, body {
+    height: 100%;
+}
+
+.content {
+    min-height: 100%;
+    margin-bottom: -32px;
+    position: relative;
+}
+
+.content:after {
+    display: block;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 0 0 -60px;
+    font-size: 24px;
+}
+
+footer, .content:after {
+    height: 32px;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+}
